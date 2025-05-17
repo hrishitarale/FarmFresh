@@ -1,0 +1,87 @@
+.farmers-market {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.farmers-market h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2e7d32;
+}
+
+.farmer-section {
+  margin-bottom: 40px;
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.farmer-section h3 {
+  color: #388e3c;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+.product-list-slider {
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+.product-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+}
+
+.product-card {
+  min-width: 200px;
+  max-width: 220px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 12px;
+ 
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.2s ease; */
+  flex-shrink: 0;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.buy-btn {
+  background-color: #66bb6a;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.buy-btn:hover {
+  background-color: #388e3c;
+}
+.quantity-select {
+  padding: 5px;
+  margin: 5px 0;
+  width: 100%;
+}
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
